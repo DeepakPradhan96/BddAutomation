@@ -1,0 +1,26 @@
+behave Feature
+
+
+comand for tag=[behave --tags=smoke,sanaty(or)
+               behave --tags=smoke --tags=sanaty(and)]
+
+comand for allure xml report
+ = behave -f allure_behave.formatter:AllureFormatter -o reports/
+
+
+ behave Feature -f allure_behave.formatter:AllureFormatter -o C:\Users\deepaak\PycharmProjects\BDDAutomation
+
+comand for allure Html report=allure serve C:\Users\deepaak\PycharmProjects\BDDAutomation
+
+comand for allure Html report=  allure serve file location
+
+
+
+
+
+
+
+
+ def after_feature(context,feature):
+#def after_scenario(context,scenario):
+#def after_tag,step(context,tag):
