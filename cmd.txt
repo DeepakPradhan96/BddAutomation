@@ -16,6 +16,9 @@ comand for allure Html report=  allure serve file location
 
 
 
+rmdir/s/q Report
+rmdir/s/q allure-reports
+
 
 
 
